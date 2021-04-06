@@ -88,7 +88,6 @@ function Form() {
     })
     .then(data => {
       console.log("Successfully sent email out to mailing list")
-      setList([...list, data])
       setErrors([])
       setNotifications("Successfully sent email out to mailing list")
     })
